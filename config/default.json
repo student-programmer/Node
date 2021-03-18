@@ -5,6 +5,9 @@
     "portDb":4000,
     "password":"161789923Tt",
     "gmail":"godjs16179@gmail.com",
-    "dbUrl": "mongodb+srv://Tazer16179:161789923@breeze-crimea.ynmre.mongodb.net/breeze-crimea?retryWrites=true&w=majority"
+    "dbName": "root",
+    "dbPassword":"root",
+    "host":"localhost",
+    "nameDb":"breeze-crimea"
 }
 }
