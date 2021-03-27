@@ -14,18 +14,13 @@ const Air = sequelize.define('Air', {
         type: DataTypes.INTEGER,
         allowNull: false
     },
-    idProduct: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
-
   }, {
     // Other model options go here
   });
-  
   // `sequelize.define` also returns the model
   console.log(Air === sequelize.models.Air); // true
 
+  console.log("The table for the User model was just (re)created!");
   module.exports = {
   Air
 }

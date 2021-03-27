@@ -1,0 +1,89 @@
+{
+    "conditioning":[{
+        "id":0,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "category":"Balu",
+        "price":22000,
+        "types":[0,1]
+ 
+    },
+    {
+        "id":1,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "category":"Hair",
+        "price":23500,
+        "types":[0,1]
+     
+    },
+    {
+        "id":2,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "category":"Samsung",
+        "price":25000,
+        "types":[0,1]
+
+    },
+    {
+        "id":3,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "category":"Rover",
+        "price":12000,
+        "types":[0,1]
+
+    },
+    {
+        "id":4,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "category":"Bosh",
+        "price":19900,
+        "types":[0,1]
+
+    },
+    {
+        "id":5,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "category":"LG",
+        "price":29000,
+        "types":[0,1]
+
+    },
+    {
+        "id":6,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "category":"Mitsubishi",
+        "price":22700,
+        "types":[0,1]
+
+    }
+],
+"works":[{
+    "id":1,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+},
+{
+    "id":2,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+},
+{
+    "id":3,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+},
+{
+    "id":4,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+},
+{
+    "id":5,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+},
+{
+    "id":6,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+}]
+}
