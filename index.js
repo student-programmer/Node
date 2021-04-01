@@ -12,9 +12,9 @@ app.use(cors())
 app.use(express.json())
 app.use('/nodemail', nodemail);
 app.use('/', router);
+app.set('view engine', 'ejs');
 const start = async() => {
     try {
-      
       await sequelize.authenticate();
       console.log('Connection has been established successfully.');
       await sequelize.sync()
