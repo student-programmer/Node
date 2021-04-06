@@ -19,7 +19,7 @@ class AirController{
 async getAir (req, res){
    try{
       const air = await Air.findAll({raw: true });
-      res.json({ status: true, response: air })
+      res.json(air)
   } catch(e){
       return console.log(e);
   }
