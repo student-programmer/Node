@@ -5,7 +5,7 @@ const nodemailer = require("nodemailer")
  
 exports.nodemailer_send = async (req, res) => {
     
-    const {email, phone, name, description, id, totalPrice, totalCount} = req.body 
+    const {email, phone, name, description, category, totalPrice, totalCount} = req.body 
     
     try {
         const transporter = nodemailer.createTransport({
@@ -23,7 +23,7 @@ exports.nodemailer_send = async (req, res) => {
                 from: gmail,
                 to: "tazer16179@gmail.com",
                 subject: "Заказ кондиционера с сайта",
-                html: `Имя пользоателя: ${name}, его почта: ${email} и номер телефона: ${phone}, - описание работы: ${description}, а также кондиционер если есть ${id} ${totalPrice} ${totalCount}`,
+                html: `Имя пользоателя: ${name}, его почта: ${email} и номер телефона: ${phone}, - описание работы: ${description}, а также кондиционер если есть ${category} ${totalPrice} ${totalCount}`,
                 
             },);
             return res.json({ status: true, response: {msg: 'Сообщение успешно отправлено!' } });
