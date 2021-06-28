@@ -6,7 +6,7 @@ const config = require("config")
  const nameDb = config.get('Parametrs.nameDb'); 
 const sequelize = new Sequelize( nameDb, userName, dbPassword, {
     host: host,
-    port:3306,
+    port:8889,
     dialect: "mysql",
   });
 module.exports = sequelize;
