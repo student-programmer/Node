@@ -4,7 +4,7 @@ const config = require("config")
  const userName = config.get('Parametrs.userName'); 
  const dbPassword = config.get('Parametrs.dbPassword'); 
  const nameDb = config.get('Parametrs.nameDb'); 
-const sequelize = new Sequelize( nameDb, userName,dbPassword, {
+const sequelize = new Sequelize( nameDb, userName, dbPassword, {
     host: host,
     port:3306,
     dialect: "mysql",
