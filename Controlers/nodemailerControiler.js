@@ -21,7 +21,7 @@ exports.nodemailer_send = async (req, res) => {
         try {
             await transporter.sendMail({
                 from: gmail,
-                to: "tazer16179@gmail.com",
+                to: "breeze16179@gmail.com",
                 subject: "Заказ кондиционера с сайта",
                 html: `Имя пользоателя: ${name}, его почта: ${email} и номер телефона: ${phone}, - описание работы: ${description}, а также кондиционер если есть ${category} ${totalPrice} ${totalCount}`,
                 
