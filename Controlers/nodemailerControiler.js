@@ -9,10 +9,10 @@ exports.nodemailer_send = async (req, res) => {
     
     try {
         const transporter = nodemailer.createTransport({
-            service: 'mail',
-            host: 'smtp.mail.ru',
-            port: 465,
-            secure: true,
+            service: 'gmail',
+            host: 'smtp.gmail.com',
+            port: 587,
+            secure: false,
             auth: {
                 user:gmail,
                 pass:password,
@@ -21,7 +21,7 @@ exports.nodemailer_send = async (req, res) => {
         try {
             await transporter.sendMail({
                 from: gmail,
-                to: "breeze161789@mail.ru",
+                to: "tazer16179@gmail.com",
                 subject: "Заказ кондиционера с сайта",
                 html: `Имя пользоателя: ${name}, его почта: ${email} и номер телефона: ${phone}, - описание работы: ${description}, а также кондиционер если есть ${category} ${totalPrice} ${totalCount}`,
                 
